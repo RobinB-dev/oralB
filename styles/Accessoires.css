@@ -219,6 +219,12 @@ h3{
   padding: 30px;
   margin-left: 10px;:
 }
+.titleetu{
+  float: left;
+  font-size: 75px;
+  margin-top: -17px;
+  margin-left: 500px;
+}
 /** footer**/
 footer{
   margin: 0;
