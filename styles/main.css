@@ -89,8 +89,8 @@ a:visited{
 .oralb1 .caption h2.sub_cap{
   font-family: 'Montserrat', sans-serif;
 	font-weight: lighter;
-	font-size: 60px;
-	color: #fff;
+	font-size: 40px;
+	color: #4385F4;
 	text-transform: uppercase;
 	line-height: 70px;
 	margin-bottom: 50px;
@@ -109,6 +109,16 @@ a:visited{
 	padding-bottom: 3px;
 }
 
+.caption{
+  position: relative;
+  animation-name: arivee;
+  animation-duration: 4s;
+}
+
+@keyframes arivee {
+  0%   {left:200px; top:0px;}
+  25%  {left:0px; top:0px;}
+}
 
 /*    Header    */
 
