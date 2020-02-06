@@ -211,9 +211,10 @@ h3{
 }
 .content-left3{
   float: left;
-  margin-left20px;
+  margin-left:20px;
 }
 .content-right3{
+  float: left;
 }
 .etui{
   padding: 30px;
