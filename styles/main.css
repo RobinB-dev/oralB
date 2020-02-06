@@ -600,7 +600,7 @@ footer p{
 
 .container_formulaire {
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
