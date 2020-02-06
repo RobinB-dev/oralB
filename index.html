@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oral-B iO</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/responsive.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+
+  <body>
+    <section class="oralb1">
+      <header>
+        <div class="row">
+
+
+          <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+              <li class="name">
+                <a href="#" class="logo">
+                  <img src="images/logoralb.png" alt="logo">
+                </a>
+              </li>
+                <span class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></span>
+              </li>
+            </ul>
+
+            <section class="top-bar-section" id="mean_nav">
+              <ul class="right">
+                <li><a href="#services">Présentation</a></li>
+                <li><a href="#Brossesimonials">Acheter</a></li>
+                <li><a href="#Download">Accessoires</a></li>
+                <li><a href="#connect">Mon espace</a></li>
+              </ul>
+            </section>
+          </nav>
+        </div>
+      </header>
+
+      <section class="caption">
+        <div class="row">
+          <h1 class="mean_cap">Soyez le premier à découvrir pourquoi iO a reçu </h1>
+          <h2 class="sub_cap">le prix de la meilleure innovation 2020.</h2>
+        </div>
+      </section>
+    </section>
+
+    <section class="services" id="services">
+      <div class="row">
+        <h1 class="mean_title">Une révolution pour la santé de vos dents</h1>
+        <h2 class="sub_title">Six ans de développement au service de votre santé buco-dentaire</h2>
+      </div>
+
+      <div class="row services_list">
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="images/dent.png" alt="" title="" class="serv_icon" width="70">
+          <h2 class="title">Une technologie révolutionnaire</h2>
+          <p>Combine la douce énergie des poils micro-vibrants avec la tête de brosse ronde inspirée des dentistes d'Oral-B, le tout propulsé par un système d'entraînement magnétique lisse unique en son genre.</p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="images/dent.png" alt="" title="" class="serv_icon" width="70">
+          <h2 class="title">Une brosse à dent intelligente</h2>
+          <p>Grâce à son nouveau capteur connecté de dernière génération, l'Oral-B iO vous permettra d'ajuster au mieux votre force de brossage, pour un nettoyage de dent optimal</p>
+          <p>Une application qui vous permet de comprendre votre brossage</p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="images/dent.png" alt="" title="" class="serv_icon"width="70">
+          <h2 class="title">Affichage interactif</h2>
+          <p>Un encouragement au brossage personnalisé fourni en temps réel premier en son genre.</p>
+          <p>Se réveille avec toi.</p>
+          <p>Fait le decompte de 2 minutes.</p>
+          <p>Sourit si tu te brosse bien les dents.</p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="images/dent.png" alt="" title="" class="serv_icon" width="70">
+          <h2 class="title">Une brosse à dent ultra-moderne</h2>
+          <p>Votre brosse à dent Oral-B iO se recharge grâce à son superbe chargeur magnétique</p>
+          <p>Une souris munie d'un capteur 3D pour vous aider à nettoyer les zones les plus difficles de votre bouche</p>
+        </div>
+      </div>
+
+      <div class="btn_holder">
+        <a href="#" class="joli_btn">
+          <div class="solid_layer"></div>
+          <div class="border_layer"></div>
+          <div class="text_layer">Obtenir maintenant</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="quote">
+        <blockquote>
+          <p>«Une <span class="strong">Révolution</span> pour la santé de vos dents»</p>
+          <hr/>
+          <span class="author">Mac Lesggy</span>
+        </blockquote>
+    </section>
+
+    <section>
+      <div class="Brosses">
+        <h1 class="title">Plusieurs couleurs diponibles</h1>
+        <h2 class="sub_title">Vert Rouge Bleu</h2>
+        <div class="SlidesContainer" >
+          <img class="BrosseSlides" src="images/br.png">
+          <img class="BrosseSlides" src="images/bb.png">
+          <img class="BrosseSlides" src="images/bv.png">
+        </div>
+      </div>
+
+
+      <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("BrosseSlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+      </script>
+    </section>
+
+    <section class="cta" id="Download">
+      <div class="row">
+        <h1 class="title">Choisissez votre santé, choisissez Oral-B</h1>
+        <h2 class="sub_title">La brosse à dent préférée des dentistes</h2>
+        <a href="#" class="joli_btn">
+          <div class="solid_layer"></div>
+          <div class="border_layer"></div>
+          <div class="text_layer">Obtenir maintenant</div>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+
+        <div class="small-12 medium-4 large-4 columns">
+          <div class="copyrights">
+            <a class="logo" href="#">
+              <h1>io.Oralb<span class="tld">.com</span></h1>
+            </a>
+            <p>Oral-B depuis 1950</p>
+          </div>
+        </div>
+
+        <div class="small-12 medium-8 large-8 columns">
+          <div class="contact_details right">
+            <nav class="social">
+              <ul class="no-bullet">
+                <li><a href="https://www.facebook.com/oralbfrance/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/oralb/?hl=fr" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/oralb?lang=fr" target="_blank">Twitter</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.pg.oralb.oralbapp&hl=en_US" target="_blank">Google Play</a></li>
+              </ul>
+            </nav>
+
+            <div class="contact">
+              <div class="details">
+                <p>mail : contact@oralb.com</p>
+                <p>Tél : 08 00 94 48 03</p>
+              </div>
+
+              <p class="adress">14 rue Victor Basch Vincennes 94300</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <button id="TopBtn"><a href="#top">Top</a></button>
+  </body>
+</html>

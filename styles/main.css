@@ -1,0 +1,532 @@
+.row{
+	max-width:1140px;
+	padding: 0;
+}
+
+
+a:visited{
+	color: black;
+}
+
+
+.top-bar .toggle-topbar.menu-icon a span::after{
+	right: 0;
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+	padding: 0 2rem 0 0.9375rem;
+}
+
+
+.top-bar,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover,
+.top-bar-section ul li,
+.top-bar.expanded .title-area,
+.top-bar-section ul li:hover > a{
+	background: transparent;
+	height: auto;
+	line-height:normal;
+	padding: 0;
+}
+
+
+.top-bar .name,
+.top-bar .name h1,
+.top-bar .name h2,
+.top-bar .name h3,
+.top-bar .name h4,
+.top-bar .name span,
+.top-bar .name p{
+	line-height: normal;
+	height: auto;
+	font-size: 1.375rem;
+}
+
+
+.top-bar.expanded .toggle-topbar a{
+	color: #fbdd90;
+}
+
+.top-bar.expanded .toggle-topbar a span::after {
+  box-shadow: 0 0 0 1px #fbdd90, 0 7px 0 1px #fbdd90, 0 14px 0 1px #fbdd90;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*    oralb1    */
+
+.oralb1{
+	width: 100%;
+	height: 750px;
+	background: url('../images/bg.jpg') no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	   background-size: cover;
+}
+
+.oralb1 .caption{
+	margin-top: 140px;
+}
+
+.oralb1 .caption h1.mean_cap{
+  font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+
+.oralb1 .caption h2.sub_cap{
+  font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 70px;
+	margin-bottom: 50px;
+}
+
+
+.oralb1 .caption .btn_details span{
+	display: inline-block;
+	color: #fff;
+	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: .5px;
+	position: relative;
+	margin-right: 5px;
+	border-bottom: 1px dashed #ffffff;
+	padding-bottom: 3px;
+}
+
+
+/*    Header    */
+
+header{
+	width: 100%;
+	height: 130px;
+	background: transparent;
+}
+
+.logo img{
+  width: 200px;
+}
+
+.logo h1 .tld{
+  font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+header .logo{
+	margin: 50px 0 0 0;
+}
+
+header nav{
+	margin-top: 60px;
+}
+
+header .top-bar-section ul li a{
+	color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-right: 30px;
+	letter-spacing: .5px;
+}
+
+
+.top-bar-section:hover{
+	color: #fbdd90;
+}
+
+
+
+/*    Services    */
+
+.services{
+	padding: 140px 0;
+}
+
+.services .mean_title,
+.services .sub_title{
+	text-align: center;
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.services .mean_title{
+	font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.services .sub_title{
+	font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	text-transform: lowercase;
+}
+
+.services .services_list{
+	margin-top: 100px;	text-align: center;
+}
+
+.services .services_list .serv_icon{
+	margin-bottom: 60px;
+}
+
+.services .services_list p{
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.services .title{
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px
+}
+
+.btn_holder{
+	text-align: center;
+}
+
+.services .joli_btn{
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+/**    quote    **/
+
+.quote{
+	display: table;
+	width: 100%;
+	height: 450px;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+.quote blockquote{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.quote blockquote p{
+	color: #4c4b4b;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 34px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.quote blockquote .strong{
+  font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.quote hr{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 1px;
+	background-color: #4b4b4b;
+}
+
+
+.quote .author{
+	display: block;
+	color: #4c4b4b;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: .5px;
+	margin: 20px 0 0 0;
+}
+
+
+/*    Call To Action    */
+
+.cta{
+	background: #ffffff;
+	padding: 140px 0;
+	background: url('../img/cubes.png') repeat;
+	text-align: center;
+}
+
+.cta .title{
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.cta .sub_title{
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	text-transform: lowercase;
+}
+
+
+
+
+/*    Footer    */
+
+footer{
+	padding: 80px 0;
+	background: #535353;
+}
+
+footer .copyrights{
+	float: left;
+	margin-bottom: 80px;
+}
+
+footer .copyrights p{
+	color: #c5c5c5;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: .5px;
+}
+
+footer .contact_details{
+	max-width: 430px;
+	float: right;
+}
+
+footer .social{
+	width: 130px;
+	display: inline-block;
+}
+
+footer .social ul{
+	margin: 0;
+}
+
+footer .social ul li{
+	margin-bottom: 7px;
+}
+
+footer .social ul li a,
+footer .contact{
+	display: inline-block;
+	color: #fff;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+}
+
+footer .contact{
+	width: 215px;
+	margin-left: 80px;
+	vertical-align: top;
+}
+
+footer .contact .details{
+	margin-bottom: 30px;
+}
+
+footer p{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*    Joli Boutton    */
+
+.joli_btn{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: #2F3434;
+  font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 16px 36px;
+	border-radius: 10px;
+	background: transparent;
+}
+
+
+
+
+.joli_btn .border_layer{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 1px solid #4385F4;
+	border-radius: 10px;
+
+}
+
+.joli_btn:hover{
+	background-color: #fafafa;
+	color: #4385F4;
+}
+
+
+
+/*  Back To Top button  */
+
+#back_top{
+	text-decoration: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 9999;
+	opacity: 0;
+}
+
+#TopBtn {
+    position: fixed;
+		color: black;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    background-color: #fff;
+    padding: .5px;
+    border-radius: 4px;
+}
+
+#TopBtn:hover {
+  background-color: #4385F4;
+
+}
+
+.Brosses{
+	max-width:1140px;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.SlidesContainer{
+  margin: 0 auto;
+  width: 200px;
+}
+
+.SlidesContainer img {
+    display:block;
+    width:100%;
+}
+
+.Brosses .title{
+	color: #454545;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.Brosses .sub_title{
+	color: #454545;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	text-transform: lowercase;
+}
+
+
+/*    Responsive CSS    */
+
+@media only screen and (max-width: 40em){
+	.top-bar .top-bar-section{
+		display: none;
+	}
+
+	.top-bar.expanded .top-bar-section{
+		display: block;
+	}
+
+	.top-bar-section ul{
+		margin-top: 70px;
+		background: #ffffff;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button){
+	  color: #454545;
+	  margin: 0;
+	  display: block;
+	  text-align: center;
+	  padding: 20px 0;
+	  background: #ffffff;
+	  border-bottom: 1px solid #fff4d7;
+	  -webkit-transition: all .2s linear;
+	       -o-transition: all .2s linear;
+	          transition: all .2s linear;
+	}
+
+	header .top-bar-section li:not(.has-form):last-child a:not(.button){
+		border: 0;
+	}
+
+	header .top-bar-section li:not(.has-form) a:not(.button):hover{
+		color: #454545;
+		background: #fbdd90;
+		padding: 20px 0;
+	}
+
+
+	.oralb1 .caption h1.mean_cap,
+	.oralb1 .caption h2.sub_cap{
+		font-size: 45px;
+		line-height: 60px;
+	}
+
+	footer .copyrights{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+
+	footer .social,
+	footer .contact{
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 0;
+	}
+
+	footer .contact{
+		margin-top: 60px;
+	}
+}
