@@ -195,6 +195,16 @@ header .top-bar-section ul li a{
 
 }
 
+.serv_icon{
+	width: 150px;
+	opacity: 70%;
+}
+
+.serv_icon:hover{
+opacity: 100%;
+}
+
+
 .services .services_list p{
 	color: #454545;
   font-family: 'Montserrat', sans-serif;
