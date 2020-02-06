@@ -677,16 +677,8 @@ input.inputform {
 
 .shipping{
 	width: 80px;
-	animation-name: shipping;
-	animation-duration: 4s;
 }
 
-@keyframes shipping {
-0%   {left:100px;}
-50%  {left:1000px; opacity:>0%;}
-55%  {left:0px; opacity:100%;}
-100% {left:100px;}
-}
 
 .tete{
   position: relative;
