@@ -18,7 +18,7 @@
           <nav class="top-bar" data-topbar role="navigation">
             <ul class="title-area">
               <li class="name">
-                <a href="#" class="logo">
+                <a href="https://www.oralb.fr/fr-fr" class="logo">
                   <img src="images/logoralb.png" alt="logo">
                 </a>
               </li>
@@ -48,7 +48,7 @@
         <a href="#" class="joli_btn">
           <div class="solid_layer"></div>
           <div class="border_layer"></div>
-          <div class="text_layer">Obtenir maintenant</div>
+          <div class="text_layer">Précommander</div>
         </a>
       </div>
     </section>
@@ -87,7 +87,7 @@
         <a href="#" class="joli_btn">
           <div class="solid_layer"></div>
           <div class="border_layer"></div>
-          <div class="text_layer">Precommander</div>
+          <div class="text_layer">Obtenir maintenant</div>
         </a>
       </div>
     </section>
@@ -113,21 +113,6 @@
       </div>
 
 
-      <script>
-      var myIndex = 0;
-      carousel();
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("BrosseSlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000);
-      }
-      </script>
     </section>
 
     <section class="cta" id="Download">
@@ -179,5 +164,8 @@
       </div>
     </footer>
     <button id="TopBtn"><a href="#top">Top</a></button>
+
+    <script src="scripts/app.js"></script>
+
   </body>
 </html>
