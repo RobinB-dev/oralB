@@ -594,3 +594,38 @@ footer p{
 		margin-top: 60px;
 	}
 }
+
+/*    Formulaire CSS    */
+
+
+.container_formulaire {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.formulaire {
+  width: 550px;
+  background: transparent;
+  padding: 30px 0 80px 0;
+}
+
+.inputform {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-size: 15px;
+  color: black;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+input.inputform {
+  height: 62px;
+  padding: 0 20px 0 58px;
+}
