@@ -220,7 +220,6 @@ header .top-bar-section ul li a{
 
 
 
-/**    quote    **/
 
 .quote{
 	display: table;
@@ -228,6 +227,19 @@ header .top-bar-section ul li a{
 	height: 450px;
 	background-color: #fafafa;
 	text-align: center;
+}
+
+.quote #Mac{
+	background-size : contain;
+	background-position : 50% 50%;
+	background-image : url(/img/exemple/filter-image.jpg);
+	display : inline-block;
+	width : 150px; height : 150px;
+	border: none;
+	-moz-border-radius : 75px;
+	-webkit-border-radius : 75px;
+	border-radius : 75px;
+	margin: 40px;
 }
 
 .quote blockquote{
