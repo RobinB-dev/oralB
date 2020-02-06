@@ -210,12 +210,10 @@ h3{
   text-align: center;
 }
 .content-left3{
-  float: left;
+  float left;
   margin-left:20px;
 }
-.content-right3{
-  float: left;
-}
+
 .etui{
   padding: 30px;
   margin-left: 10px;:
