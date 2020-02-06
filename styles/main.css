@@ -320,6 +320,9 @@ opacity: 100%;
 	margin: 20px 0 0 0;
 }
 
+.fond{
+	background-color: #fff;
+}
 
 /*    Call To Action    */
 
@@ -597,6 +600,41 @@ footer p{
 
 /*    Formulaire CSS    */
 
+.keynom{
+  position: relative;
+  animation-name: arivee2;
+  animation-duration: 4s;
+}
+
+.keymail{
+  position: relative;
+  animation-name: arivee2;
+  animation-duration: 5s;
+}
+
+.keyphone{
+  position: relative;
+  animation-name: arivee2;
+  animation-duration: 6s;
+}
+
+.keyadresse{
+  position: relative;
+  animation-name: arivee2;
+  animation-duration: 7s;
+}
+
+.keybtn{
+  position: relative;
+  animation-name: arivee2;
+  animation-duration: 8s;
+}
+
+@keyframes arivee2 {
+  0%   {left:200px; top:0px;}
+  25%  {left:0px; top:0px;}
+}
+
 
 .container_formulaire {
   width: 100%;
@@ -631,4 +669,48 @@ input.inputform {
 	border: 2px solid #4385F4;
 	border-radius: 10px;
 	background-color: rgb(254, 254, 254, 10% );
+}
+
+.blank{
+	height: 40px;
+}
+
+.shipping{
+	width: 80px;
+	animation-name: shipping;
+	animation-duration: 4s;
+}
+
+@keyframes shipping {
+0%   {left:100px;}
+50%  {left:1000px; opacity:>0%;}
+55%  {left:0px; opacity:100%;}
+100% {left:100px;}
+}
+
+.tete{
+  position: relative;
+	width: 40px;
+	z-index: 40;
+}
+
+.tete:hover{
+	animation-name: spin;
+	animation-duration: 8s;
+
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+		} to {
+			transform: rotate(360deg);
+		}
+}
+
+.corps{
+  position: relative;
+	width: 80px;
+  transform:translateY(-20px);
+	z-index: 30;
 }
