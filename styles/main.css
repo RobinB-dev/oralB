@@ -277,6 +277,11 @@ opacity: 100%;
 	vertical-align:middle;
 }
 
+.quote #Mac:hover{
+	border: 6px solid #4385F4;
+}
+
+
 .quote blockquote p{
 	color: #4c4b4b;
   font-family: 'Montserrat', sans-serif;
@@ -320,7 +325,7 @@ opacity: 100%;
 
 .cta{
 	background: #ffffff;
-	padding: 140px 0;
+	padding: 30px 0;
 	background: url('../img/cubes.png') repeat;
 	text-align: center;
 }
