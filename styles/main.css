@@ -97,8 +97,6 @@ a:visited{
 }
 
 
-
-
 .oralb1 .caption .btn_details span{
 	display: inline-block;
 	color: #fff;
@@ -274,11 +272,6 @@ opacity: 100%;
 	margin: 40px;
 }
 
-.quote #Mac:hover{
-	border: 6px solid #4385F4;
-}
-
-
 .quote blockquote{
 	display:table-cell;
 	vertical-align:middle;
@@ -322,16 +315,12 @@ opacity: 100%;
 	margin: 20px 0 0 0;
 }
 
-.fond{
-	background-color: #fff;
-}
-
 
 /*    Call To Action    */
 
 .cta{
 	background: #ffffff;
-	padding: 30px 0;
+	padding: 140px 0;
 	background: url('../img/cubes.png') repeat;
 	text-align: center;
 }
