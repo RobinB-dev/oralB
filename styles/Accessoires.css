@@ -210,7 +210,7 @@ h3{
   text-align: center;
 }
 .content-left3{
-  float left;
+  float :left;
   margin-left:20px;
 }
 
